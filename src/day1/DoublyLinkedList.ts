@@ -186,10 +186,8 @@ export default class DoublyLinkedList<T> {
         }
 
         // Break the old links
-        // @ts-expect-error
-        currentNode?.prev = undefined;
-        // @ts-expect-error
-        currentNode?.next = undefined;
+        currentNode.prev = undefined;
+        currentNode.next = undefined;
 
         return currentNode?.value as T;
     }

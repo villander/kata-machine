@@ -12,12 +12,8 @@ export function test_list(list: List<number>): void {
     list.append(11);
     expect(list.length).toEqual(3);
     expect(list.removeAt(1)).toEqual(9);
-    console.log(list.length, "tamanho antes");
     expect(list.remove(9)).toEqual(undefined);
-    console.log(list.length, "tamanho");
     expect(list.removeAt(0)).toEqual(5);
-
-    console.log(list.length, "tamanho");
 
     expect(list.removeAt(0)).toEqual(11);
     expect(list.length).toEqual(0);
