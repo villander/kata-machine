@@ -7,7 +7,7 @@
         "resolveJsonModule": true,
         "noImplicitReturns": true,
         "esModuleInterop": true,
-        "target": "esnext",
+        "target": "es6",
         "module": "commonjs",
         "baseUrl": "src",
         "paths": {

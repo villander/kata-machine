@@ -78,7 +78,7 @@ export default class SinglyLinkedList<T> {
         let currentNode = this.head;
         let previousNode;
 
-        // Until find the value or reach run out the list
+        // Until find the value or run out the list
         while (currentNode?.value !== item || currentNode.next) {
             previousNode = currentNode;
             // current node is now the next node
